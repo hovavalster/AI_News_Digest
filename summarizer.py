@@ -57,6 +57,7 @@ IMPORTANT RULES:
 - Every section MUST have at least 1 bullet. Never write "No updates today."
 - If there are no recent articles for a section, use your own knowledge to share ONE genuinely useful thing: a recent feature, a practical tip, a creative use case, or something impressive someone has built with that tool.
 - Each bullet is 1-2 sentences: what it is + how the reader can use it today.
+- End each bullet with the source link in this format: (Source: URL) — use the actual article URL if one was provided, otherwise omit the source line.
 - Maximum 4 bullets per section.
 - Simple English only — explain it like talking to a smart friend, not a developer.
 - Focus on things that are actually useful or surprising. Skip boring announcements.
@@ -65,13 +66,13 @@ IMPORTANT RULES:
 
 Format:
 **Claude Code**
-• [bullet]
+• [bullet sentence]. (Source: https://...)
 
 **Gemini**
-• [bullet]
+• [bullet sentence]. (Source: https://...)
 
 **NotebookLM**
-• [bullet]
+• [bullet sentence]. (Source: https://...)
 
 **Tip of the Day**
 • [one specific thing to try]
