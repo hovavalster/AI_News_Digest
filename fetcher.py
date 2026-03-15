@@ -25,15 +25,28 @@ FEEDS: dict[str, str] = {
 }
 
 # Keywords that qualify an article for inclusion (case-insensitive)
-KEYWORDS: list[str] = ["claude", "claude code", "gemini", "notebooklm"]
+KEYWORDS: list[str] = [
+    "claude", "claude code", "gemini", "notebooklm",
+    "ai agent", "agentic", "multi-agent", "autogpt", "crewai", "langgraph",
+    "n8n", "agentops", "openai agents", "agent sdk",
+]
 
 # Topic labels in priority order (most specific first)
 # An article is labelled with the first topic whose keyword appears in the text.
 TOPIC_PRIORITY: list[tuple[str, str]] = [
-    ("claude code", "Claude Code"),   # more specific than plain "claude"
-    ("notebooklm",  "NotebookLM"),
-    ("gemini",      "Gemini"),
-    ("claude",      "Claude Code"),   # fall back: any Claude mention → Claude Code bucket
+    ("claude code",    "Claude Code"),
+    ("notebooklm",     "NotebookLM"),
+    ("gemini",         "Gemini"),
+    ("claude",         "Claude Code"),
+    ("autogpt",        "AI Agents"),
+    ("crewai",         "AI Agents"),
+    ("langgraph",      "AI Agents"),
+    ("agentops",       "AI Agents"),
+    ("openai agents",  "AI Agents"),
+    ("agent sdk",      "AI Agents"),
+    ("multi-agent",    "AI Agents"),
+    ("agentic",        "AI Agents"),
+    ("ai agent",       "AI Agents"),
 ]
 
 logging.basicConfig(

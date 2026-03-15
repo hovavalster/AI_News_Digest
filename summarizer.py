@@ -32,47 +32,51 @@ def summarize_news(articles: list[dict]) -> str:
 
     # Build the articles section of the prompt
     articles_text = ""
-    for topic in ["Claude Code", "Gemini", "NotebookLM"]:
+    for topic in ["Claude Code", "Gemini", "NotebookLM", "AI Agents"]:
         topic_articles = by_topic.get(topic, [])
         articles_text += f"\n### {topic}\n"
         if topic_articles:
             for a in topic_articles:
                 articles_text += (
                     f"- Title: {a.get('title', 'No title')}\n"
-                    f"  Source: {a.get('source', 'Unknown')}\n"
+                    f"  URL: {a.get('link', '')}\n"
                     f"  Published: {a.get('published', 'Unknown date')}\n"
                     f"  Summary: {a.get('summary', 'No summary available')}\n"
                 )
         else:
-            articles_text += "(no articles)\n"
+            articles_text += "(no articles found in feeds)\n"
 
-    prompt = f"""You are writing a daily AI digest email for a curious non-technical reader who wants to learn something new every single day about Claude Code, Gemini, and NotebookLM.
+    prompt = f"""You are writing a daily AI digest email for a curious non-technical reader who wants to learn something new every single day.
 
-Here are the articles I found (may be from the last 24 hours or last 7 days):
+Here are the real articles fetched from RSS feeds today (URLs are real — use them exactly):
 {articles_text}
 
-Write a digest with exactly 3 sections: **Claude Code**, **Gemini**, and **NotebookLM**.
+Write a digest with exactly 4 sections: **Claude Code**, **Gemini**, **NotebookLM**, and **AI Agents** (covering tools like AutoGPT, CrewAI, LangGraph, n8n, OpenAI Agents SDK, and similar agentic AI tools).
 
 IMPORTANT RULES:
 - Every section MUST have at least 1 bullet. Never write "No updates today."
-- If there are no recent articles for a section, use your own knowledge to share ONE genuinely useful thing: a recent feature, a practical tip, a creative use case, or something impressive someone has built with that tool.
+- If a section has no articles, share ONE genuinely useful thing from your own knowledge — a real feature, tip, or use case. Do NOT invent a URL in this case — just omit the source link entirely.
+- If a section HAS articles with a URL, end the bullet with: (Source: URL) — copy the URL exactly as given above, do NOT modify or invent URLs.
+- NEVER make up or guess any URL. A missing source is better than a wrong one.
 - Each bullet is 1-2 sentences: what it is + how the reader can use it today.
-- End each bullet with the source link in this format: (Source: URL) — use the actual article URL if one was provided, otherwise omit the source line.
 - Maximum 4 bullets per section.
 - Simple English only — explain it like talking to a smart friend, not a developer.
-- Focus on things that are actually useful or surprising. Skip boring announcements.
-- After the 3 sections, add a 4th section: **Tip of the Day** — one specific, actionable thing the reader can try right now with any of these tools.
-- End with: "Today's Key Takeaway:" — one sentence on the most important or exciting thing.
+- Focus on things that are actually useful or surprising. Skip boring press releases.
+- After the 4 sections, add: **Tip of the Day** — one specific, actionable thing to try right now.
+- End with: "Today's Key Takeaway:" — one sentence on the most important thing.
 
 Format:
 **Claude Code**
-• [bullet sentence]. (Source: https://...)
+• [bullet]. (Source: https://real-url-from-above)
 
 **Gemini**
-• [bullet sentence]. (Source: https://...)
+• [bullet]. (Source: https://real-url-from-above)
 
 **NotebookLM**
-• [bullet sentence]. (Source: https://...)
+• [bullet]
+
+**AI Agents**
+• [bullet]. (Source: https://real-url-from-above)
 
 **Tip of the Day**
 • [one specific thing to try]
