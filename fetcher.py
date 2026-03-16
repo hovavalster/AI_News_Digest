@@ -1,9 +1,9 @@
 """
 fetcher.py — RSS feed fetcher for AI News Digest.
 
-Fetches articles from Anthropic, Google AI, TechCrunch AI, and The Verge AI feeds,
-filters for Claude / Claude Code / Gemini / NotebookLM mentions, and returns a
-deduplicated list of article dicts.
+Fetches articles from a broad set of AI news sources including tech blogs,
+Reddit communities, HackerNews, practitioner blogs, and trade press.
+Returns a deduplicated list of article dicts filtered by topic relevance.
 """
 
 import logging
@@ -18,35 +18,84 @@ from typing import Optional
 # ---------------------------------------------------------------------------
 
 FEEDS: dict[str, str] = {
-    "Anthropic Blog":   "https://www.anthropic.com/rss.xml",
-    "Google Blog AI":   "https://blog.google/technology/ai/rss/",
-    "TechCrunch AI":    "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "The Verge AI":     "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    # Official AI lab blogs
+    "Anthropic Blog":       "https://www.anthropic.com/rss.xml",
+    "Google DeepMind Blog": "https://deepmind.google/blog/rss.xml",
+    "Google Blog AI":       "https://blog.google/technology/ai/rss/",
+    "OpenAI Blog":          "https://openai.com/news/rss.xml",
+
+    # Tech news — AI beats
+    "TechCrunch AI":        "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "The Verge AI":         "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "VentureBeat AI":       "https://venturebeat.com/category/ai/feed/",
+    "Wired AI":             "https://www.wired.com/feed/tag/artificial-intelligence/rss",
+    "MIT Tech Review AI":   "https://www.technologyreview.com/feed/",
+    "Ars Technica AI":      "https://arstechnica.com/tag/artificial-intelligence/feed/",
+
+    # Practitioner blogs — high signal, very current
+    "Simon Willison":       "https://simonwillison.net/atom/everything/",  # most-followed AI practitioner
+    "Import AI (Jack Clark)": "https://jack-clark.net/feed/",              # weekly AI research newsletter
+    "The Batch (Andrew Ng)":  "https://www.deeplearning.ai/the-batch/feed/",
+
+    # Reddit AI communities — surface trending discussions within hours
+    "Reddit MachineLearning": "https://www.reddit.com/r/MachineLearning/.rss?limit=25",
+    "Reddit LocalLLaMA":      "https://www.reddit.com/r/LocalLLaMA/.rss?limit=25",
+    "Reddit artificial":      "https://www.reddit.com/r/artificial/.rss?limit=25",
+    "Reddit ChatGPT":         "https://www.reddit.com/r/ChatGPT/.rss?limit=25",
+
+    # HackerNews — AI stories float to the top fast
+    "HackerNews":           "https://hnrss.org/frontpage?q=AI+LLM+GPT+Claude+Gemini&points=50",
 }
 
-# Keywords that qualify an article for inclusion (case-insensitive)
+# Keywords that qualify an article (case-insensitive).
+# Broad enough to catch any meaningful AI development.
 KEYWORDS: list[str] = [
-    "claude", "claude code", "gemini", "notebooklm",
-    "ai agent", "agentic", "multi-agent", "autogpt", "crewai", "langgraph",
-    "n8n", "agentops", "openai agents", "agent sdk",
+    # Models & products
+    "claude", "gemini", "notebooklm", "gpt", "chatgpt", "llama", "mistral",
+    "grok", "copilot", "perplexity", "midjourney", "sora", "whisper",
+    # Concepts
+    "large language model", "llm", "foundation model", "generative ai",
+    "ai agent", "agentic", "multi-agent", "reasoning model",
+    # Frameworks & tools
+    "langchain", "langgraph", "crewai", "autogpt", "n8n", "cursor",
+    "claude code", "openai agents", "agent sdk", "mcp",
+    # Companies & labs
+    "anthropic", "openai", "deepmind", "mistral ai", "cohere", "stability ai",
+    # General AI news
+    "artificial intelligence", "machine learning", "deep learning",
+    "neural network", "transformer", "fine-tuning", "rag",
 ]
 
-# Topic labels in priority order (most specific first)
-# An article is labelled with the first topic whose keyword appears in the text.
+# Topic labels — most specific keyword wins.
 TOPIC_PRIORITY: list[tuple[str, str]] = [
     ("claude code",    "Claude Code"),
     ("notebooklm",     "NotebookLM"),
     ("gemini",         "Gemini"),
+    ("anthropic",      "Claude Code"),
     ("claude",         "Claude Code"),
     ("autogpt",        "AI Agents"),
     ("crewai",         "AI Agents"),
     ("langgraph",      "AI Agents"),
-    ("agentops",       "AI Agents"),
     ("openai agents",  "AI Agents"),
     ("agent sdk",      "AI Agents"),
+    ("mcp",            "AI Agents"),
     ("multi-agent",    "AI Agents"),
     ("agentic",        "AI Agents"),
     ("ai agent",       "AI Agents"),
+    # Everything else → general AI bucket
+    ("gpt",            "AI News"),
+    ("chatgpt",        "AI News"),
+    ("openai",         "AI News"),
+    ("llama",          "AI News"),
+    ("mistral",        "AI News"),
+    ("grok",           "AI News"),
+    ("llm",            "AI News"),
+    ("large language model", "AI News"),
+    ("generative ai",  "AI News"),
+    ("foundation model", "AI News"),
+    ("deepmind",       "AI News"),
+    ("artificial intelligence", "AI News"),
+    ("machine learning", "AI News"),
 ]
 
 logging.basicConfig(

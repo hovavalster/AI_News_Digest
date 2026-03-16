@@ -45,63 +45,65 @@ def summarize_news(articles: list[dict]) -> str:
 
     # Build the articles section of the prompt
     articles_text = ""
-    for topic in ["Claude Code", "Gemini", "NotebookLM", "AI Agents"]:
+    for topic in ["Claude Code", "Gemini", "NotebookLM", "AI Agents", "AI News"]:
         topic_articles = by_topic.get(topic, [])
         articles_text += f"\n### {topic}\n"
         if topic_articles:
-            for a in topic_articles:
+            for a in topic_articles[:6]:  # cap per-topic to keep prompt manageable
                 articles_text += (
                     f"- Title: {a.get('title', 'No title')}\n"
                     f"  URL: {a.get('link', '')}\n"
+                    f"  Source: {a.get('source', '')}\n"
                     f"  Published: {a.get('published', 'Unknown date')}\n"
                     f"  Summary: {a.get('summary', 'No summary available')}\n"
                 )
         else:
             articles_text += "(no articles found in feeds)\n"
 
-    prompt = f"""You are writing a daily AI digest email for a curious non-technical reader who wants to learn something new every single day.
+    prompt = f"""You are writing a daily AI digest email for a curious, non-technical reader who follows AI closely and wants to hear about things that are genuinely NEW — things that happened or were announced in the last few days.
 
-Here are today's NEW articles — these have NOT appeared in any previous digest:
+Here are today's fresh articles pulled from 18 sources (Reddit, HackerNews, VentureBeat, MIT Tech Review, practitioner blogs, and lab blogs). These are ALL NEW — not previously sent:
 {articles_text}
 
-Write a digest with exactly 4 sections: **Claude Code**, **Gemini**, **NotebookLM**, and **AI Agents** (covering tools like AutoGPT, CrewAI, LangGraph, n8n, OpenAI Agents SDK, and similar agentic AI tools).
+Write a digest with 5 sections: **Claude & Anthropic**, **Gemini & Google AI**, **AI Agents & Tools**, **AI News** (biggest story of the day from any lab or company), and **What People Are Saying** (a hot Reddit/HackerNews discussion or community reaction worth knowing about).
 
-IMPORTANT RULES:
-- Every section MUST have at least 1 bullet. Never write "No updates today."
-- If a section shows "(no articles found in feeds)", write ONE bullet from your own knowledge — a genuinely useful feature, recent development, or practical tip that has NOT appeared in this digest before. Make it fresh and specific, not generic. Do NOT invent a URL — just omit the source line.
-- If a section HAS articles with a URL, end the bullet with: (Source: URL) — copy the URL exactly as given above, do NOT modify or invent URLs.
-- NEVER make up or guess any URL. A missing source is better than a wrong one.
-- Each bullet is 1-2 sentences: what it is + how the reader can use it today.
-- Maximum 4 bullets per section.
-- Simple English only — explain it like talking to a smart friend, not a developer.
-- Focus on things that are actually useful or surprising. Skip boring press releases.
-- After the 4 sections, add: **Tip of the Day** — one specific, actionable thing to try right now.
-- Then add a **Podcast of the Day** section using EXACTLY the podcast info provided below — do not change or invent anything, just present it warmly in 2-3 sentences.
-- End with: "Today's Key Takeaway:" — one sentence on the most important thing.
+CRITICAL RULES — read carefully:
+- FRESHNESS: Only write about things that actually happened recently. Do NOT share well-known, months-old product features as if they are news (e.g. "NotebookLM can turn PDFs into podcasts" — everyone knows this). If a section has no new articles, leave it as a single honest bullet: "Nothing notable today — check back tomorrow."
+- REAL URLs ONLY: If an article has a URL in the data above, end the bullet with (Source: URL) — copy it exactly. NEVER invent or guess a URL. No URL is better than a wrong one.
+- TONE: Write like a smart friend texting you the interesting stuff — not a press release. 1-2 sentences per bullet.
+- MAX 3 bullets per section. Quality over quantity.
+- After the 5 sections, add: **Tip of the Day** — one specific, actionable thing to try RIGHT NOW with any AI tool.
+- Then add the podcast episode section below (use EXACTLY the info provided — do not change anything).
+- End with: **Today's Key Takeaway:** one sentence on the single most important or surprising thing from today.
 
-Today's podcast to include:
+Today's podcast episode to include verbatim:
 {podcast_block}
 
 Format:
-**Claude Code**
-• [bullet]. (Source: https://real-url-from-above)
+**Claude & Anthropic**
+• [bullet] (Source: URL if available)
 
-**Gemini**
-• [bullet]. (Source: https://real-url-from-above)
+**Gemini & Google AI**
+• [bullet] (Source: URL if available)
 
-**NotebookLM**
-• [bullet]
+**AI Agents & Tools**
+• [bullet] (Source: URL if available)
 
-**AI Agents**
-• [bullet]. (Source: https://real-url-from-above)
+**AI News**
+• [bullet] (Source: URL if available)
+
+**What People Are Saying**
+• [hot community discussion or reaction] (Source: URL if available)
 
 **Tip of the Day**
-• [one specific thing to try]
+• [one specific thing to try now]
 
 **Podcast Episode of the Day**
-🎙️ [Show name — Episode title (ID) — Guest — Duration]. Then 2-3 warm sentences explaining exactly why this specific episode is worth listening to. End with: Search on Spotify: "[search term]"
+🎙️ [Show — "Episode Title" (ID) with Guest — Duration]
+[2-3 sentences on why THIS specific episode is worth your time today]
+Search on Spotify: "[search term]"
 
-Today's Key Takeaway: [one sentence]
+**Today's Key Takeaway:** [one sentence]
 """
 
     try:
@@ -110,7 +112,7 @@ Today's Key Takeaway: [one sentence]
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=1800,
+            max_tokens=2200,
             messages=[
                 {"role": "user", "content": prompt}
             ],
