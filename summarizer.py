@@ -59,14 +59,14 @@ def summarize_news(articles: list[dict]) -> str:
 
     prompt = f"""You are writing a daily AI digest email for a curious non-technical reader who wants to learn something new every single day.
 
-Here are the real articles fetched from RSS feeds today (URLs are real — use them exactly):
+Here are today's NEW articles — these have NOT appeared in any previous digest:
 {articles_text}
 
 Write a digest with exactly 4 sections: **Claude Code**, **Gemini**, **NotebookLM**, and **AI Agents** (covering tools like AutoGPT, CrewAI, LangGraph, n8n, OpenAI Agents SDK, and similar agentic AI tools).
 
 IMPORTANT RULES:
 - Every section MUST have at least 1 bullet. Never write "No updates today."
-- If a section has no articles, share ONE genuinely useful thing from your own knowledge — a real feature, tip, or use case. Do NOT invent a URL in this case — just omit the source link entirely.
+- If a section shows "(no articles found in feeds)", write ONE bullet from your own knowledge — a genuinely useful feature, recent development, or practical tip that has NOT appeared in this digest before. Make it fresh and specific, not generic. Do NOT invent a URL — just omit the source line.
 - If a section HAS articles with a URL, end the bullet with: (Source: URL) — copy the URL exactly as given above, do NOT modify or invent URLs.
 - NEVER make up or guess any URL. A missing source is better than a wrong one.
 - Each bullet is 1-2 sentences: what it is + how the reader can use it today.

@@ -208,11 +208,11 @@ def fetch_news() -> list[dict]:
     articles = _fetch_with_cutoff(now - timedelta(hours=24))
     logger.info("24-hour window: %d article(s) found.", len(articles))
 
-    # If slim pickings, widen to 7 days
+    # If slim pickings, widen to 30 days to give a larger pool of unseen articles
     if len(articles) < 3:
-        logger.info("Fewer than 3 articles in 24 hrs — expanding to 7 days.")
-        articles = _fetch_with_cutoff(now - timedelta(days=7))
-        logger.info("7-day window: %d article(s) found.", len(articles))
+        logger.info("Fewer than 3 articles in 24 hrs — expanding to 30 days.")
+        articles = _fetch_with_cutoff(now - timedelta(days=30))
+        logger.info("30-day window: %d article(s) found.", len(articles))
 
     logger.info("Total articles collected: %d", len(articles))
     return articles

@@ -14,7 +14,9 @@ Usage
 # ── Standard library ────────────────────────────────────────────────────────────
 import argparse
 import datetime
+import json
 import logging
+import os
 import sys
 
 # Force UTF-8 output on Windows (prevents crashes on accented chars from article titles)
@@ -33,6 +35,46 @@ load_dotenv()  # loads .env from the current working directory (or parents)
 from fetcher    import fetch_news
 from summarizer import summarize_news
 from emailer    import send_email, format_html
+
+# ── Seen-links persistence ───────────────────────────────────────────────────────
+_SEEN_LINKS_FILE = os.path.join(os.path.dirname(__file__), "data", "seen_links.json")
+_SEEN_LINKS_MAX_AGE_DAYS = 60  # prune entries older than this
+
+
+def _load_seen_links() -> dict[str, str]:
+    """Return {url: date_str} for all previously sent articles."""
+    try:
+        with open(_SEEN_LINKS_FILE, encoding="utf-8") as f:
+            raw = json.load(f)
+        # Support both old format (list of strings) and new format (list of {url, date})
+        result = {}
+        for item in raw:
+            if isinstance(item, str):
+                result[item] = "2000-01-01"  # legacy — treat as old
+            elif isinstance(item, dict):
+                result[item["url"]] = item.get("date", "2000-01-01")
+        return result
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _save_seen_links(seen: dict[str, str], dry_run: bool) -> None:
+    """Persist seen links, pruning entries older than _SEEN_LINKS_MAX_AGE_DAYS."""
+    if dry_run:
+        return
+    cutoff = (
+        datetime.date.today() - datetime.timedelta(days=_SEEN_LINKS_MAX_AGE_DAYS)
+    ).isoformat()
+    pruned = [
+        {"url": url, "date": date}
+        for url, date in seen.items()
+        if date >= cutoff
+    ]
+    os.makedirs(os.path.dirname(_SEEN_LINKS_FILE), exist_ok=True)
+    with open(_SEEN_LINKS_FILE, "w", encoding="utf-8") as f:
+        json.dump(pruned, f, indent=2)
+    logger_placeholder = logging.getLogger("ai_news_digest.main")
+    logger_placeholder.info("Saved %d seen links to %s", len(pruned), _SEEN_LINKS_FILE)
 
 # ── Logging ─────────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -75,12 +117,25 @@ def main() -> None:
     args = _parse_args()
 
     try:
-        # ── Step 1: Fetch news ───────────────────────────────────────────────────
-        print("Fetching news...")
-        articles = fetch_news()
-        print(f"  -> {len(articles)} article(s) found.")
+        # ── Step 1: Load previously sent article URLs ────────────────────────────
+        seen_links = _load_seen_links()
+        logger.info("Loaded %d previously seen article links.", len(seen_links))
 
-        # ── Step 2: Summarise — always calls Claude, always returns something useful ──
+        # ── Step 2: Fetch news ───────────────────────────────────────────────────
+        print("Fetching news...")
+        all_articles = fetch_news()
+        print(f"  -> {len(all_articles)} article(s) found in feeds.")
+
+        # Filter out articles already covered in a previous digest
+        articles = [a for a in all_articles if a.get("link") not in seen_links]
+        print(f"  -> {len(articles)} article(s) are new (not previously sent).")
+        if len(articles) < len(all_articles):
+            logger.info(
+                "Filtered out %d already-sent article(s).",
+                len(all_articles) - len(articles),
+            )
+
+        # ── Step 3: Summarise — always calls Claude, always returns something useful ──
         print("Summarizing with Claude...")
         digest = summarize_news(articles)
 
@@ -106,6 +161,13 @@ def main() -> None:
             success = send_email(subject, digest, html_body)
             if success:
                 print("Email sent!")
+                # ── Mark these articles as seen so they won't repeat ─────────────
+                today_str = today.isoformat()
+                for article in articles:
+                    url = article.get("link")
+                    if url:
+                        seen_links[url] = today_str
+                _save_seen_links(seen_links, dry_run=False)
             else:
                 print("Email failed. Check logs above for details.")
                 # Exit with a non-zero code so GitHub Actions marks the run as failed
