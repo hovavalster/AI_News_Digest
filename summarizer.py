@@ -5,7 +5,7 @@ Generates a clean daily digest from collected news articles using Claude.
 
 import os
 from collections import defaultdict
-from podcasts import pick_podcast_of_the_day
+from podcasts import pick_episode_of_the_day
 
 
 def summarize_news(articles: list[dict]) -> str:
@@ -25,14 +25,16 @@ def summarize_news(articles: list[dict]) -> str:
     if not api_key:
         return _fallback_digest(articles, reason="ANTHROPIC_API_KEY not set")
 
-    # Pick today's podcast recommendation
-    podcast = pick_podcast_of_the_day()
+    # Pick today's episode recommendation
+    ep = pick_episode_of_the_day()
     podcast_block = (
-        f"Name: {podcast['name']}\n"
-        f"Host: {podcast['host']}\n"
-        f"Category: {podcast['category']}\n"
-        f"Why listen: {podcast['why']}\n"
-        f"Search on Spotify: \"{podcast['spotify_search']}\""
+        f"Show: {ep['show']}\n"
+        f"Episode: {ep['episode']} ({ep['episode_id']})\n"
+        f"Guest: {ep['guest']}\n"
+        f"Category: {ep['category']}\n"
+        f"Duration: {ep['duration']}\n"
+        f"Why listen: {ep['why']}\n"
+        f"Search on Spotify: \"{ep['spotify_search']}\""
     )
 
     # Group articles by topic for the prompt
@@ -96,8 +98,8 @@ Format:
 **Tip of the Day**
 • [one specific thing to try]
 
-**Podcast of the Day**
-🎙️ [podcast name and host, then 2-3 warm sentences about why it's worth your time]. Search for it on Spotify: "[search term]"
+**Podcast Episode of the Day**
+🎙️ [Show name — Episode title (ID) — Guest — Duration]. Then 2-3 warm sentences explaining exactly why this specific episode is worth listening to. End with: Search on Spotify: "[search term]"
 
 Today's Key Takeaway: [one sentence]
 """
