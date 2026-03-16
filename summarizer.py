@@ -5,6 +5,7 @@ Generates a clean daily digest from collected news articles using Claude.
 
 import os
 from collections import defaultdict
+from podcasts import pick_podcast_of_the_day
 
 
 def summarize_news(articles: list[dict]) -> str:
@@ -23,6 +24,16 @@ def summarize_news(articles: list[dict]) -> str:
 
     if not api_key:
         return _fallback_digest(articles, reason="ANTHROPIC_API_KEY not set")
+
+    # Pick today's podcast recommendation
+    podcast = pick_podcast_of_the_day()
+    podcast_block = (
+        f"Name: {podcast['name']}\n"
+        f"Host: {podcast['host']}\n"
+        f"Category: {podcast['category']}\n"
+        f"Why listen: {podcast['why']}\n"
+        f"Search on Spotify: \"{podcast['spotify_search']}\""
+    )
 
     # Group articles by topic for the prompt
     by_topic: dict[str, list[dict]] = defaultdict(list)
@@ -63,7 +74,11 @@ IMPORTANT RULES:
 - Simple English only — explain it like talking to a smart friend, not a developer.
 - Focus on things that are actually useful or surprising. Skip boring press releases.
 - After the 4 sections, add: **Tip of the Day** — one specific, actionable thing to try right now.
+- Then add a **Podcast of the Day** section using EXACTLY the podcast info provided below — do not change or invent anything, just present it warmly in 2-3 sentences.
 - End with: "Today's Key Takeaway:" — one sentence on the most important thing.
+
+Today's podcast to include:
+{podcast_block}
 
 Format:
 **Claude Code**
@@ -81,6 +96,9 @@ Format:
 **Tip of the Day**
 • [one specific thing to try]
 
+**Podcast of the Day**
+🎙️ [podcast name and host, then 2-3 warm sentences about why it's worth your time]. Search for it on Spotify: "[search term]"
+
 Today's Key Takeaway: [one sentence]
 """
 
@@ -90,7 +108,7 @@ Today's Key Takeaway: [one sentence]
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=1500,
+            max_tokens=1800,
             messages=[
                 {"role": "user", "content": prompt}
             ],
