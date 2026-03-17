@@ -68,7 +68,8 @@ Here are today's fresh articles pulled from 18 sources (Reddit, HackerNews, Vent
 Write a digest with 5 sections: **Claude & Anthropic**, **Gemini & Google AI**, **AI Agents & Tools**, **AI News** (biggest story of the day from any lab or company), and **What People Are Saying** (a hot Reddit/HackerNews discussion or community reaction worth knowing about).
 
 CRITICAL RULES — read carefully:
-- FRESHNESS: Only write about things that actually happened recently. Do NOT share well-known, months-old product features as if they are news (e.g. "NotebookLM can turn PDFs into podcasts" — everyone knows this). If a section has no new articles, leave it as a single honest bullet: "Nothing notable today — check back tomorrow."
+- NO EMPTY SECTIONS: Every section must have at least 1 bullet. Never write "Nothing notable today." If a section has no new articles from the feeds, write 1 bullet from your own knowledge — a genuinely useful or surprising thing about that tool: a lesser-known feature, a smart use case, something that changed recently, or something most people don't know. No URL needed in that case.
+- FRESHNESS: Do NOT recycle obvious, well-known, months-old product features as if they are news (e.g. "NotebookLM can turn PDFs into podcasts" — everyone knows this). Be specific and interesting.
 - REAL URLs ONLY: If an article has a URL in the data above, end the bullet with (Source: URL) — copy it exactly. NEVER invent or guess a URL. No URL is better than a wrong one.
 - TONE: Write like a smart friend texting you the interesting stuff — not a press release. 1-2 sentences per bullet.
 - MAX 3 bullets per section. Quality over quantity.

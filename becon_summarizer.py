@@ -51,10 +51,11 @@ Write a digest with 4 sections:
 **Applied Behavioral** — behavioral research applied to real-world policy: health, savings, poverty, education, finance, etc.
 
 RULES:
-- For each paper you cover, say: what they studied, what they found, and why it matters — in 2-3 plain-English sentences. No jargon without explanation.
-- If a paper has a URL above, end the bullet with (Source: URL) — use the exact URL, never invent one.
-- If a section has no new papers, say honestly: "Nothing new in this category today."
-- NEVER recycle well-known findings as if they are new (e.g. don't explain prospect theory as a new discovery).
+- Every section MUST have at least 1 bullet. Never write "Nothing new today" or leave a section empty.
+- If a section has new papers from the feeds above: cover those, ending each bullet with (Source: URL) — exact URL only, never invented.
+- If a section has no new papers: write 1-2 bullets drawing from your knowledge of the field — a classic foundational finding, an important concept, a famous experiment, a counterintuitive result, or an idea that changed how economists think. Present it as "worth knowing" context, not as breaking news. No URL needed in this case.
+- NEVER present old knowledge as a new discovery. If it's a classic, say so naturally ("One of the most replicated findings in behavioral economics..." or "A concept worth revisiting...").
+- For each item: what was studied or what is the concept, what the finding/insight is, and why it matters practically. 2-3 plain-English sentences. No jargon without explanation.
 - Max 3 bullets per section.
 - After the 4 sections, add:
 
