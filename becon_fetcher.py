@@ -24,11 +24,16 @@ FEEDS: dict[str, str] = {
     "NBER Working Papers":          "https://www.nber.org/rss/new_working_papers.xml",
 
     # ── Top-5 general journals ────────────────────────────────────────────────
-    "American Economic Review":     "https://www.aeaweb.org/journals/aer/rss",
-    "AEJ Microeconomics":           "https://www.aeaweb.org/journals/mic/rss",
-    "AEJ Applied Economics":        "https://www.aeaweb.org/journals/app/rss",
-    "Quarterly Journal of Economics": "https://academic.oup.com/qje/rss",
-    "Review of Economic Studies":   "https://academic.oup.com/restud/rss",
+    "American Economic Review":
+        "https://www.aeaweb.org/journals/aer/issues/rss",
+    "AEJ Microeconomics":
+        "https://www.aeaweb.org/journals/mic/issues/rss",
+    "AEJ Applied Economics":
+        "https://www.aeaweb.org/journals/app/issues/rss",
+    "Quarterly Journal of Economics":
+        "https://academic.oup.com/rss/content/xml/1531108",
+    "Review of Economic Studies":
+        "https://academic.oup.com/rss/content/xml/1467937X",
     "Journal of Political Economy":
         "https://www.journals.uchicago.edu/action/showFeed?type=etoc&feed=rss&jc=jpe",
     "Econometrica":
@@ -40,7 +45,7 @@ FEEDS: dict[str, str] = {
     "Journal of Economic Theory":
         "https://rss.sciencedirect.com/publication/science/00220531",
     "Experimental Economics":
-        "https://link.springer.com/search.rss?query=experimental+economics&search-within=Journal&facet-journal-id=10683",
+        "https://link.springer.com/search.rss?facet-journal-id=10683&query=",
     "Journal of Behavioral Decision Making":
         "https://onlinelibrary.wiley.com/feed/10990771/most-recent",
     "Journal of Economic Behavior and Organization":
@@ -51,7 +56,7 @@ FEEDS: dict[str, str] = {
         "https://rss.sciencedirect.com/publication/science/00472727",
 
     # ── Policy-facing summaries of top research (more readable, very timely) ─
-    "VoxEU (CEPR)":                 "https://cepr.org/feed",
+    "VoxEU (CEPR)":                 "https://feeds.feedburner.com/voxeu/whys",
     "NBER Digest":                  "https://www.nber.org/rss/digest.xml",
 }
 
