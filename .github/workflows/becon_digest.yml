@@ -30,10 +30,11 @@ jobs:
       - name: Run behavioral economics digest
         run: python becon_digest.py
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          EMAIL_SENDER:      ${{ secrets.EMAIL_SENDER }}
-          EMAIL_PASSWORD:    ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_RECIPIENT:   ${{ secrets.EMAIL_RECIPIENT }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+          EMAIL_SENDER:        ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD:      ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECIPIENT:     ${{ secrets.EMAIL_RECIPIENT }}
+          EMAIL_RECIPIENT_2:   ${{ secrets.EMAIL_RECIPIENT_2 }}
 
       - name: Commit updated becon_seen_links.json
         run: |

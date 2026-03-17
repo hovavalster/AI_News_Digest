@@ -167,6 +167,7 @@ def send_email(subject: str, text_body: str, html_body: str) -> bool:
     Send an email via Gmail SMTP (STARTTLS, port 587).
 
     Reads EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECIPIENT from environment.
+    Optionally also sends to EMAIL_RECIPIENT_2 if set.
     Returns True on success, False on any failure (never raises).
     """
     sender    = os.environ.get("EMAIL_SENDER", "").strip()
@@ -180,11 +181,17 @@ def send_email(subject: str, text_body: str, html_body: str) -> bool:
         )
         return False
 
+    # Collect all recipients
+    recipients = [recipient]
+    extra = os.environ.get("EMAIL_RECIPIENT_2", "").strip()
+    if extra:
+        recipients.append(extra)
+
     # Build MIMEMultipart("alternative") — plain-text first, HTML second
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = sender
-    msg["To"]      = recipient
+    msg["To"]      = ", ".join(recipients)
 
     msg.attach(MIMEText(text_body, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html",  "utf-8"))
@@ -195,8 +202,8 @@ def send_email(subject: str, text_body: str, html_body: str) -> bool:
             server.starttls()
             server.ehlo()
             server.login(sender, password)
-            server.sendmail(sender, [recipient], msg.as_string())
-        logger.info("Email sent successfully to %s (subject: %s)", recipient, subject)
+            server.sendmail(sender, recipients, msg.as_string())
+        logger.info("Email sent successfully to %s (subject: %s)", ", ".join(recipients), subject)
         return True
 
     except smtplib.SMTPAuthenticationError:
