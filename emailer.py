@@ -8,10 +8,12 @@ Environment variables required:
 """
 
 import os
+import re
 import logging
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from urllib.parse import urlparse
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -21,34 +23,93 @@ GMAIL_SMTP_PORT = 587
 
 # ── Section header colours ─────────────────────────────────────────────────────
 SECTION_COLORS: dict[str, str] = {
-    "claude":      "#2B6CB0",
-    "anthropic":   "#2B6CB0",
-    "gemini":      "#1A73E8",
-    "google":      "#1A73E8",
-    "notebooklm":  "#34A853",
-    "notebook lm": "#34A853",
+    "claude":           "#2B6CB0",
+    "anthropic":        "#2B6CB0",
+    "gemini":           "#1A73E8",
+    "google":           "#1A73E8",
+    "notebooklm":       "#34A853",
+    "notebook lm":      "#34A853",
+    "ai agents":        "#D97706",
+    "what people":      "#7C3AED",
+    "prompt":           "#0D9488",
+    "tool spotlight":   "#DC2626",
+    "podcast":          "#7C3AED",
+    "one number":       "#1A202C",
+    "key takeaway":     "#2B6CB0",
+    "best of the week": "#D97706",
 }
 
 _DEFAULT_HEADER_COLOR = "#4A5568"  # slate-grey for unrecognised sections
 
+# ── Difficulty badge colours [bg, fg] ──────────────────────────────────────────
+_BADGE_COLORS: dict[str, tuple[str, str]] = {
+    "[Beginner]":     ("#D1FAE5", "#065F46"),
+    "[Intermediate]": ("#FEF3C7", "#92400E"),
+    "[Deep Dive]":    ("#EDE9FE", "#5B21B6"),
+}
+
 
 # ── HTML formatter ─────────────────────────────────────────────────────────────
 
+def _process_inline(raw: str) -> str:
+    """
+    Escape HTML, linkify URLs (showing domain name), bold **text**, add badge pills.
+
+    Order matters: escape first so we don't double-escape URL href values,
+    then apply bold and badges on the escaped text.
+    """
+    # 1. Split around bare URLs, escape text segments, linkify URL segments
+    url_re = re.compile(r'(https?://[^\s<>"\')\]]+)')
+    segments = url_re.split(raw)
+    parts: list[str] = []
+    for i, seg in enumerate(segments):
+        if i % 2 == 0:
+            parts.append(_escape(seg))
+        else:
+            safe_url = _escape(seg)
+            try:
+                domain = urlparse(seg).netloc.replace("www.", "") or seg[:40]
+            except Exception:
+                domain = seg[:40]
+            parts.append(
+                f'<a href="{safe_url}" style="color:#2B6CB0;text-decoration:none;'
+                f'font-weight:500;" target="_blank">{_escape(domain)} ↗</a>'
+            )
+    text = "".join(parts)
+
+    # 2. **bold** → <strong>
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+
+    # 3. [Badge] → colored pill
+    for badge, (bg, fg) in _BADGE_COLORS.items():
+        text = text.replace(
+            badge,
+            f'<span style="background:{bg};color:{fg};font-size:11px;font-weight:600;'
+            f'padding:2px 8px;border-radius:10px;margin-right:5px;">'
+            f'{badge[1:-1]}</span>',
+        )
+
+    return text
+
+
 def format_html(digest_text: str, date_str: str) -> str:
     """
-    Convert the plain-text digest (bullet points with •) into a styled HTML email.
+    Convert the plain-text Claude digest into a styled HTML email.
 
-    Rules
-    -----
-    - Lines that end with a colon  → coloured section heading
-    - Lines that start with •      → <li> items (wrapped in <ul>)
-    - Blank lines                  → paragraph break
-    - Everything else              → plain paragraph
+    Line types handled
+    ------------------
+    ---                        → <hr> divider
+    📊 **One Number**          → emoji section heading (h2 with emoji)
+    **Claude & Anthropic**     → plain section heading (h2 with colour)
+    **Today's Key Takeaway:**  → bold label + inline text paragraph
+    Claude Code:               → legacy colon-suffix heading
+    • bullet text (Source: URL)→ <li> with clickable link + badge pills
+    blank                      → vertical spacer
+    everything else            → <p> with inline processing
     """
     lines = digest_text.splitlines()
-
     body_html_parts: list[str] = []
-    in_list = False  # tracks whether we are inside an open <ul>
+    in_list = False
 
     def close_list() -> None:
         nonlocal in_list
@@ -56,52 +117,95 @@ def format_html(digest_text: str, date_str: str) -> str:
             body_html_parts.append("</ul>")
             in_list = False
 
+    def h2(text: str, color: str, prefix: str = "") -> str:
+        pre = f"{_escape(prefix)}&nbsp;" if prefix else ""
+        return (
+            f'<h2 style="margin:24px 0 8px 0;font-size:16px;color:{color};'
+            f'border-bottom:2px solid {color};padding-bottom:6px;">'
+            f"{pre}{_escape(text)}</h2>"
+        )
+
     for raw_line in lines:
         line = raw_line.strip()
 
-        # Blank line → paragraph spacer
+        # ── Blank line ───────────────────────────────────────────────────────
         if not line:
             close_list()
-            body_html_parts.append('<p style="margin:0 0 8px 0;">&nbsp;</p>')
+            body_html_parts.append('<div style="height:8px;"></div>')
             continue
 
-        # Section heading: two formats are supported:
-        #   1. Claude markdown bold:  **Claude Code**
-        #   2. Plain colon suffix:    Claude Code:
-        heading_text: str | None = None
-        if line.startswith("**") and line.endswith("**") and len(line) > 4:
-            # Strip the surrounding ** markers
-            heading_text = line[2:-2].strip()
-        elif line.endswith(":") and not line.startswith("•"):
-            heading_text = line.rstrip(":")
-
-        if heading_text is not None:
+        # ── Horizontal rule ──────────────────────────────────────────────────
+        if line == "---":
             close_list()
-            color = _heading_color(heading_text)
             body_html_parts.append(
-                f'<h2 style="margin:24px 0 8px 0; font-size:17px; '
-                f'color:{color}; border-bottom:2px solid {color}; '
-                f'padding-bottom:4px;">{_escape(heading_text)}</h2>'
+                '<hr style="border:none;border-top:1px solid #E2E8F0;margin:20px 0;">'
             )
             continue
 
-        # Bullet point
+        # ── Bullet point ─────────────────────────────────────────────────────
         if line.startswith("•"):
             item_text = line.lstrip("•").strip()
             if not in_list:
                 body_html_parts.append(
-                    '<ul style="margin:4px 0 4px 0; padding-left:20px;">'
+                    '<ul style="margin:4px 0 8px 0;padding-left:18px;">'
                 )
                 in_list = True
             body_html_parts.append(
-                f'<li style="margin-bottom:6px; line-height:1.5;">{_escape(item_text)}</li>'
+                f'<li style="margin-bottom:8px;line-height:1.6;">'
+                f"{_process_inline(item_text)}</li>"
             )
             continue
 
-        # Plain text
+        # Everything below closes any open list
         close_list()
+
+        # ── Emoji heading: "📊 **One Number**" ──────────────────────────────
+        # First char is non-ASCII (emoji) and line contains **heading**
+        if ord(line[0]) > 127:
+            m = re.match(r"^(.{1,4})\s+\*\*(.+?)\*\*(.*)$", line)
+            if m:
+                emoji, heading, rest = m.group(1), m.group(2), m.group(3).strip()
+                color = _heading_color(heading)
+                suffix = (
+                    f' <span style="color:#718096;font-size:13px;font-weight:normal;">'
+                    f"{_escape(rest)}</span>"
+                    if rest
+                    else ""
+                )
+                body_html_parts.append(
+                    f'<h2 style="margin:24px 0 8px 0;font-size:16px;color:{color};'
+                    f'border-bottom:2px solid {color};padding-bottom:6px;">'
+                    f"{_escape(emoji)}&nbsp;{_escape(heading)}{suffix}</h2>"
+                )
+                continue
+            # Falls through if no ** found — treated as plain text below
+
+        # ── Section heading: **Claude & Anthropic** (whole line is **…**) ───
+        if line.startswith("**") and line.endswith("**") and len(line) > 4:
+            heading_text = line[2:-2].strip()
+            body_html_parts.append(h2(heading_text, _heading_color(heading_text)))
+            continue
+
+        # ── Bold-label line: "**Today's Key Takeaway:** text" ────────────────
+        if line.startswith("**"):
+            m = re.match(r"^\*\*(.+?):\*\*\s*(.*)$", line)
+            if m:
+                label, rest = m.group(1), m.group(2)
+                body_html_parts.append(
+                    f'<p style="margin:12px 0;line-height:1.6;">'
+                    f"<strong>{_escape(label)}:</strong> {_process_inline(rest)}</p>"
+                )
+                continue
+
+        # ── Legacy colon-suffix heading: "Claude Code:" ──────────────────────
+        if line.endswith(":") and not line.startswith("•"):
+            heading_text = line.rstrip(":")
+            body_html_parts.append(h2(heading_text, _heading_color(heading_text)))
+            continue
+
+        # ── Plain text ───────────────────────────────────────────────────────
         body_html_parts.append(
-            f'<p style="margin:0 0 8px 0; line-height:1.6;">{_escape(line)}</p>'
+            f'<p style="margin:0 0 8px 0;line-height:1.6;">{_process_inline(line)}</p>'
         )
 
     close_list()
@@ -249,20 +353,53 @@ if __name__ == "__main__":
     import datetime
 
     SAMPLE_DIGEST = """\
-Claude (Anthropic):
-• Claude 3.7 Sonnet released with extended thinking mode and 200K context
-• Anthropic publishes new Constitutional AI research paper
-• Claude API adds batch processing endpoint for high-volume use cases
+---
 
-Gemini (Google):
-• Gemini 2.0 Flash achieves top scores on MMLU and HumanEval benchmarks
-• Google integrates Gemini natively into Google Docs and Sheets
-• New Gemini API feature: grounding with Google Search
+📊 **One Number**
+700 million: the number of people Sam Altman says he wants AI to eventually serve as a "brilliant friend."
 
-NotebookLM:
-• NotebookLM now supports audio overviews in 10 additional languages
-• New "Briefing Doc" export format added to NotebookLM
-• Google expands NotebookLM enterprise tier with SSO support
+---
+
+**Claude & Anthropic**
+• [Beginner] — Anthropic expands Claude's tool-use and memory across sessions — infrastructure for persistent AI collaborators, not just chatbots. (Source: https://techcrunch.com/2026/03/18/anthropic-tool-use/)
+• [Deep Dive] — New research paper from Anthropic on constitutional AI scaling. Interesting take on how values are baked in at training time. (Source: https://www.anthropic.com/research/constitutional-ai-2)
+
+**Gemini & Google AI**
+• [Beginner] — NotebookLM gaining momentum with educators turning dense PDFs into conversational audio summaries. (Source: https://venturebeat.com/ai/notebooklm-educators/)
+• [Intermediate] — Gemini 2.0 Flash now available via API with significantly lower latency than 1.5 Pro. (Source: https://ai.google.dev/blog/gemini-flash-update)
+
+**AI Agents & Tools**
+• [Intermediate] — The agent race is heating up. Anthropic, OpenAI, and Google all shipping agentic frameworks within the same week. (Source: https://www.theverge.com/ai/agents-race-2026)
+
+**AI News**
+• [Beginner] — A photo of a war zone went viral; journalists couldn't confirm if it was real or AI-generated. Media literacy is lagging badly.
+
+**What People Are Saying**
+• [Beginner] — Reddit thread on brain cells playing Doom is oscillating between "incredible neuroscience" and "this is how every sci-fi horror movie starts." (Source: https://reddit.com/r/artificial/comments/doom_neurons)
+
+---
+
+💡 **Prompt of the Day**
+Paste any news article and ask: "(1) summarize in 3 bullets, (2) give me background context I might be missing, (3) flag any one-sided claims I should verify." Works in Claude or ChatGPT.
+
+---
+
+🛠️ **Tool Spotlight: Windsurf** (AI Code Editor)
+Codeium's AI-native IDE has a mode called Cascade that plans and executes multi-step coding tasks across your entire project. It's like having a junior developer who reads all your files before touching anything. Try this: open a project and ask it to "add dark mode support" — it figures out which files to change automatically.
+URL: https://codeium.com/windsurf
+
+---
+
+🎙️ **Podcast Episode of the Day**
+The Tim Ferriss Show — Naval Ravikant: The Angel Philosopher (#97) — Naval Ravikant — ~2h 5min
+One of the most-shared podcast episodes ever recorded. Naval breaks down his framework for wealth, happiness, and leverage in a way that makes you rethink how you approach work. Still completely relevant years later.
+Search on Spotify: "Tim Ferriss Naval Ravikant Angel Philosopher 97"
+
+---
+
+**Today's Key Takeaway:** AI is now advanced enough that it's genuinely hard to tell what's real in a conflict zone — and that's not a future problem, it's happening today.
+
+---
 """
 
     today = datetime.date.today().strftime("%B %d, %Y")
