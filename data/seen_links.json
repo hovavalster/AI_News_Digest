@@ -3746,5 +3746,237 @@
   {
     "url": "https://www.reddit.com/r/ChatGPT/comments/1s6g4of/ai_could_play_rpg/",
     "date": "2026-03-29"
+  },
+  {
+    "url": "https://openai.com/index/helping-disaster-response-teams-asia",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s73sbf/p_implemented_turboquant_in_python/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s7esf1/p_llm_with_a_9line_seed_5_rounds_of_contrastive/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s6wswn/d_why_does_it_seem_like_open_source_materials_on/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s73gma/p_i_built_an_autonomous_ml_agent_that_runs/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7jfh2/kernelanvil_2x_decode_speedup_on_amd_by/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7g8ov/autoresearch_on_qwen35397b_36_experiments_to/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7cxqx/if_it_works_it_aint_stupid/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6r5gn/localllama_2026/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s720r8/in_the_recent_kv_rotation_pr_it_was_found_that/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7chea/5090_vs_dual_5060_16g_why_isnt_everyone_going_dual/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s76bjg/what_will_googles_turboquant_actually_change_for/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7b5mb/the_lowend_theory_battle_of_250_inference/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7imwn/antigravity_gemini_flash_is_working_well_for_me_i/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6rmoi/the_missing_piece_of_voxtral_tts_to_enable_voice/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7kxf9/alibaba_mnn_has_support_turboquant/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7i7w8/swebench_scores_without_scaffold_details_are/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6z9f8/tinylora_shows_lora_training_works_at_13/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7j7ib/lfm_25_16b_is_it_actually_good_or_just_hype/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6wsy7/m5max_macbook_pro_128gb_ram_qwen3_coder_next_8bit/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6stgl/kimi_k26_will_drop_in_the_next_2_weeks_k3_is_wip/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6v5n3/meta_new_open_source_model_is_coming/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7b2xg/local_ai_that_feels_as_fast_as_frontier/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7gzpn/can_we_use_continuous_batching_to_create_agent/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72up8/why_exactly_cant_we_use_the_techniques_in/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s74rc7/i_trained_a_language_model_from_scratch_for_a/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s748ho/need_help_with_the_logistics_of_two_big_3090s_in/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s73yby/implemented_turboquant_in_python_over_weekend/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s776li/ai_doomsday_toolbox_v0932_update/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/artificial/comments/1s738xf/nicolas_carlini_672k_citations_on_google_scholar/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/artificial/comments/1s7k1sg/cli_for_google_ai_search_gaigoogle_run_aipowered/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/artificial/comments/1s6ytzp/vulcanami_might_help/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7gu8m/omg/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7c685/what_the_actual_f/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7ioct/alarming_study_finds_that_most_people_just_do/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7jt96/iran_releases_ai_generated_propaganda_video/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7dco6/why_does_chatgpt_say_this_after_every_prompt_im/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s6vtjl/tristan_harris_on_bill_maher_whats_going_to/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s6x0hd/clear_obama_visits_meiji_era_japan/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7jbac/please_create_a_picture_of_what_you_think_the_usa/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7cq27/chatgpt_helped_me_losing_weight_and_now_im_off_my/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7ij9h/chatgpts_answers_too_long_verbose_and_a_lot_of/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7dqar/the_illusion_of_choice/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7kz6t/i_switched_to_claude_only_to_find_out_its_not_an/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s6u9ph/chatgpt_now_fails_at_most_basic_tasks/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7kex9/not_all_ai_tools_made_for_all_tasks/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7jqj5/asked_what_do_you_think_im_not_aware_of_but/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s79c5f/10_prompts_i_actually_use_every_day_as_a/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7dkvl/ai_tools_are_becoming_the_new_subscription_trap/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7eacz/i_asked_for_a_color_wheel_that_also_showed_the/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s71l1t/the_website_where_you_can_pretend_to_be_an_ai/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s6w079/ai_gonna_replace_the_job/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7cy3u/chats_getting_erased/",
+    "date": "2026-03-30"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1s7hafq/love_him_so_much/",
+    "date": "2026-03-30"
   }
 ]
