@@ -2,8 +2,8 @@ name: Behavioral Economics Digest
 
 on:
   schedule:
-    # 09:00 UTC = 11:00 AM Israel Standard Time (UTC+2)
-    - cron: '0 9 * * *'
+    # Every 3 days at 09:00 UTC = 11:00 AM Israel Standard Time (UTC+2)
+    - cron: '0 9 */3 * *'
   workflow_dispatch:
 
 permissions:

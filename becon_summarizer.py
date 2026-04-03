@@ -224,7 +224,7 @@ def summarize_becon(articles: list[dict]) -> str:
         )
         friday_section = "\n**Best of the Week**\n• [finding 1]\n• [finding 2]\n• [finding 3]\n"
 
-    prompt = f"""You are writing a daily research briefing for someone intellectually curious about behavioral economics and behavioral game theory — smart and well-read, not a professional academic.
+    prompt = f"""You are writing a concise research briefing for someone intellectually curious about behavioral economics and behavioral game theory — smart and well-read, not a professional academic. Keep it tight — every word should earn its place.
 
 Today's new papers (none previously sent):
 {articles_text}
@@ -256,41 +256,41 @@ Write in this exact order and format:
 ---
 
 🌍 **In the Wild**
-[One place where today's research concepts are already being used in a real product, company, or government policy. Be specific — name the organization, country, or product. 2-3 sentences.]
+[One real-world application — name the organization or product. 1-2 sentences.]
 
 ---
 
 ⚖️ **Policy Watch**
-[One government, central bank, or institution currently applying behavioral insights to a real policy challenge. Be specific and current. 2-3 sentences.]
+[One government or institution applying behavioral insights right now. 1-2 sentences.]
 
 ---
 
 🔬 **Field vs. Lab**
-[One sentence flagging a case where a lab finding does or doesn't hold up in the real world — either from today's papers or a well-known example. Frame it as a useful reality check.]
+[One sentence: does today's finding hold up in the real world or not?]
 {friday_section}
 ---
 
 **Paper of the Week**
-[4-5 sentences on the single most interesting result from today — explain it like telling a curious friend over coffee. Go deeper than the section bullets.]
+[3 sentences on the most interesting result from today — like telling a curious friend over coffee.]
 
 ---
 
 📚 **Classic Paper of the Week**
-[Use EXACTLY the classic paper info provided above. 3-4 sentences: what they did, what they found, and why it's still relevant today. Present it as a foundational piece worth knowing.]
+[Use EXACTLY the classic paper info provided above. 2-3 sentences: what they found and why it still matters.]
 
 ---
 
 **One Idea to Sit With**
-[One sentence — a question or implication from today's research worth thinking about.]
+[One sentence — a question or implication worth thinking about.]
 
 ---
 
 RULES:
 - Tag each research bullet [Beginner] or [Deep Dive].
-- NO EMPTY SECTIONS. If no new papers for a section, draw from your knowledge — a classic finding, an important concept, a famous experiment. No invented URL.
+- NO EMPTY SECTIONS. If no new papers for a section, draw from your knowledge — no invented URL.
 - Real URLs only — copy exactly from the feeds data above.
-- 2-3 plain-English sentences per bullet. No jargon without explanation.
-- Max 3 bullets per section.
+- 1-2 plain-English sentences per bullet. No jargon without explanation.
+- Max 2 bullets per section.
 - Never present classic knowledge as new. If it's a classic, say so.
 {friday_instruction}
 """
@@ -300,7 +300,7 @@ RULES:
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=2800,
+            max_tokens=1900,
             messages=[{"role": "user", "content": prompt}],
         )
         return message.content[0].text.strip()

@@ -71,7 +71,7 @@ def summarize_news(articles: list[dict]) -> str:
         )
         friday_section = "\n**Best of the Week**\n• [story 1]\n• [story 2]\n• [story 3]\n"
 
-    prompt = f"""You are writing a daily AI digest email for a curious, non-technical reader who follows AI closely.
+    prompt = f"""You are writing a concise AI digest email for a curious, non-technical reader who follows AI closely. Keep it tight — every word should earn its place.
 
 Today's fresh articles (ALL new — not previously sent):
 {articles_text}
@@ -109,17 +109,17 @@ Write the digest in this exact order and format:
 ---
 
 💡 **Prompt of the Day**
-[A specific, copy-paste-ready prompt the reader can use RIGHT NOW. Format it clearly so they can paste it directly into Claude or ChatGPT. Include what tool to use it in.]
+[A specific, copy-paste-ready prompt. 2-3 sentences max: one line for the prompt itself, one line on what to use it for.]
 
 ---
 
 🛠️ **Tool Spotlight: {tool['name']}** ({tool['category']})
-[Use EXACTLY the tool info provided above. 2-3 warm sentences about what it does and why it's useful, then the Try This tip, then the URL.]
+[Use EXACTLY the tool info provided above. 1-2 sentences on what it does and why it's useful, then the Try This tip, then the URL.]
 
 ---
 
 🎙️ **Podcast Episode of the Day**
-[Use EXACTLY the podcast info provided above. Format: Show — Episode (ID) — Guest — Duration, then 2-3 sentences on why this specific episode is worth listening to today.]
+[Use EXACTLY the podcast info provided above. Format: Show — Episode (ID) — Guest — Duration, then 1-2 sentences on why this episode is worth listening to.]
 Search on Spotify: "[search term]"
 {friday_section}
 ---
@@ -129,10 +129,10 @@ Search on Spotify: "[search term]"
 ---
 
 RULES:
-- Tag each news bullet [Beginner] (anyone can understand), [Intermediate] (some AI familiarity helps), or [Deep Dive] (technical or complex).
-- NO EMPTY SECTIONS. If no articles for a section, write 1 bullet from your knowledge — specific and interesting, not generic. No invented URL.
+- Tag each news bullet [Beginner], [Intermediate], or [Deep Dive].
+- NO EMPTY SECTIONS. If no articles for a section, write 1 bullet from your knowledge — specific, not generic. No invented URL.
 - Real URLs only — copy exactly from the feeds data. Never invent one.
-- 1-2 sentences per news bullet. Max 3 bullets per section.
+- 1 sentence per news bullet. Max 2 bullets per section.
 - Friendly, smart tone — like a well-informed friend, not a press release.
 {friday_instruction}
 """
@@ -142,7 +142,7 @@ RULES:
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=2800,
+            max_tokens=1900,
             messages=[{"role": "user", "content": prompt}],
         )
         return message.content[0].text.strip()

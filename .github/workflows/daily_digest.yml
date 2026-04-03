@@ -2,8 +2,8 @@ name: Daily AI News Digest
 
 on:
   schedule:
-    # Runs every day at 08:00 UTC
-    - cron: '0 8 * * *'
+    # Runs every 3 days at 08:00 UTC
+    - cron: '0 8 */3 * *'
   workflow_dispatch:  # Enables the "Run workflow" button in the GitHub Actions UI
 
 permissions:
