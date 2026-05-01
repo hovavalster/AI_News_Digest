@@ -23,6 +23,7 @@ GMAIL_SMTP_PORT = 587
 
 # ── Section header colours ─────────────────────────────────────────────────────
 SECTION_COLORS: dict[str, str] = {
+    # AI digest sections
     "claude":           "#2B6CB0",
     "anthropic":        "#2B6CB0",
     "gemini":           "#1A73E8",
@@ -37,6 +38,17 @@ SECTION_COLORS: dict[str, str] = {
     "one number":       "#1A202C",
     "key takeaway":     "#2B6CB0",
     "best of the week": "#D97706",
+    # Behavioral econ digest sections
+    "behavioral economics": "#6366F1",
+    "behavioral game":      "#8B5CF6",
+    "experiments":          "#0891B2",
+    "applied behavioral":   "#059669",
+    "in the wild":          "#D97706",
+    "policy watch":         "#DC2626",
+    "field vs":             "#7C3AED",
+    "paper of the week":    "#2B6CB0",
+    "classic paper":        "#4A5568",
+    "one idea":             "#0D9488",
 }
 
 _DEFAULT_HEADER_COLOR = "#4A5568"  # slate-grey for unrecognised sections
@@ -110,6 +122,7 @@ def format_html(digest_text: str, date_str: str) -> str:
     lines = digest_text.splitlines()
     body_html_parts: list[str] = []
     in_list = False
+    next_is_one_number = False  # render next paragraph as callout box
 
     def close_list() -> None:
         nonlocal in_list
@@ -177,6 +190,8 @@ def format_html(digest_text: str, date_str: str) -> str:
                     f'border-bottom:2px solid {color};padding-bottom:6px;">'
                     f"{_escape(emoji)}&nbsp;{_escape(heading)}{suffix}</h2>"
                 )
+                if "one number" in heading.lower():
+                    next_is_one_number = True
                 continue
             # Falls through if no ** found — treated as plain text below
 
@@ -204,13 +219,24 @@ def format_html(digest_text: str, date_str: str) -> str:
             continue
 
         # ── Plain text ───────────────────────────────────────────────────────
-        body_html_parts.append(
-            f'<p style="margin:0 0 8px 0;line-height:1.6;">{_process_inline(line)}</p>'
-        )
+        if next_is_one_number:
+            next_is_one_number = False
+            body_html_parts.append(
+                f'<div style="background:#EFF6FF;border-left:4px solid #2B6CB0;'
+                f'padding:14px 18px;margin:8px 0 20px 0;border-radius:0 6px 6px 0;">'
+                f'<p style="margin:0;font-size:15px;line-height:1.6;color:#1E3A5F;">'
+                f"{_process_inline(line)}</p></div>"
+            )
+        else:
+            body_html_parts.append(
+                f'<p style="margin:0 0 8px 0;line-height:1.6;">{_process_inline(line)}</p>'
+            )
 
     close_list()
 
     body_html = "\n".join(body_html_parts)
+
+    preheader = _escape(_extract_one_number(digest_text))
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -218,13 +244,22 @@ def format_html(digest_text: str, date_str: str) -> str:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News Digest — {_escape(date_str)}</title>
+  <style>
+    @media only screen and (max-width:640px) {{
+      .email-wrap  {{ width:100% !important; }}
+      .email-body  {{ padding:20px 16px 12px 16px !important; }}
+      .email-footer {{ padding:12px 16px 20px 16px !important; }}
+    }}
+  </style>
 </head>
 <body style="margin:0; padding:0; background-color:#F7F8FA;">
+  <!-- Preheader: hidden text shown as inbox preview snippet -->
+  <div style="display:none;max-height:0;overflow:hidden;font-size:1px;color:#F7F8FA;">{preheader}</div>
   <table width="100%" cellpadding="0" cellspacing="0"
          style="background-color:#F7F8FA; padding:32px 16px;">
     <tr>
       <td align="center">
-        <table width="620" cellpadding="0" cellspacing="0"
+        <table width="620" cellpadding="0" cellspacing="0" class="email-wrap"
                style="background-color:#FFFFFF; border-radius:8px;
                       box-shadow:0 2px 8px rgba(0,0,0,0.08);
                       font-family:Arial, Helvetica, sans-serif;
@@ -241,13 +276,13 @@ def format_html(digest_text: str, date_str: str) -> str:
           </tr>
           <!-- Body -->
           <tr>
-            <td style="padding:28px 32px 16px 32px;">
+            <td class="email-body" style="padding:28px 32px 16px 32px;">
               {body_html}
             </td>
           </tr>
           <!-- Footer -->
           <tr>
-            <td style="padding:16px 32px 28px 32px;
+            <td class="email-footer" style="padding:16px 32px 28px 32px;
                        border-top:1px solid #E2E8F0;">
               <p style="margin:0; font-size:12px; color:#718096;
                         text-align:center;">
@@ -334,6 +369,21 @@ def _heading_color(text: str) -> str:
         if keyword in lower:
             return color
     return _DEFAULT_HEADER_COLOR
+
+
+def _extract_one_number(digest_text: str) -> str:
+    """Return the One Number paragraph for use as inbox preheader text."""
+    lines = digest_text.splitlines()
+    found_heading = False
+    for line in lines:
+        stripped = line.strip()
+        if found_heading:
+            if stripped and stripped != "---":
+                # Strip markdown bold markers for plain preview text
+                return re.sub(r"\*\*(.+?)\*\*", r"\1", stripped)
+        elif "one number" in stripped.lower() and "**" in stripped:
+            found_heading = True
+    return ""
 
 
 def _escape(text: str) -> str:
