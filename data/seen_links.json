@@ -1,25 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
-    "date": "2026-04-13"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-    "date": "2026-04-13"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-    "date": "2026-04-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
-    "date": "2026-04-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
-    "date": "2026-04-13"
-  },
-  {
     "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
     "date": "2026-04-16"
   },
@@ -3838,5 +3818,41 @@
   {
     "url": "https://www.reddit.com/r/ChatGPT/comments/1u1vyx1/i_asked_chatgpt_this_question/",
     "date": "2026-06-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u4mues/price_is_not_cost_how_we_are_using_the_wrong/",
+    "date": "2026-06-13"
   }
 ]
