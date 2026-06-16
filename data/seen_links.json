@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
-    "date": "2026-04-16"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything",
-    "date": "2026-04-16"
-  },
-  {
     "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
     "date": "2026-04-19"
   },
@@ -3854,5 +3802,77 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1u4mues/price_is_not_cost_how_we_are_using_the_wrong/",
     "date": "2026-06-13"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u6p7k3/open_weights_are_not_enough_we_need_open_training/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u79uwi/source_code_for_llms_d/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/",
+    "date": "2026-06-16"
   }
 ]
