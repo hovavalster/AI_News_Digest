@@ -1,21 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-    "date": "2026-04-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
-    "date": "2026-04-19"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
-    "date": "2026-04-19"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
-    "date": "2026-04-19"
-  },
-  {
     "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
     "date": "2026-04-22"
   },
@@ -3874,5 +3858,33 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/",
     "date": "2026-06-16"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/",
+    "date": "2026-06-19"
   }
 ]
