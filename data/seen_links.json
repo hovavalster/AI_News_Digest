@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://www.theverge.com/gadgets/918016/prestigious-photo-contest-answers-what-is-a-photo",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
-    "date": "2026-04-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything",
-    "date": "2026-04-25"
-  },
-  {
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
     "date": "2026-04-28"
   },
@@ -3846,5 +3806,65 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
     "date": "2026-06-22"
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://openai.com/index/how-agents-are-transforming-work",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ueiam6/find_the_best_opensource_ocr_models_in_one_place/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1uf53un/i_stopped_trusting_model_benchmarks_and_started/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1uelcm9/high_dimensional_dynamic_rotary_positional/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1uezvgj/any_ideas_for_unconventional_ml_projects_d/",
+    "date": "2026-06-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ueavxn/i_compiled_llm_inference_pricing_across_7/",
+    "date": "2026-06-25"
   }
 ]
