@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
-    "date": "2026-05-16"
-  },
-  {
     "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
     "date": "2026-05-19"
   },
@@ -2930,5 +2902,77 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1uufp11/where_to_publish_a_construction_bim_benchmark_d/",
     "date": "2026-07-13"
+  },
+  {
+    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ux64ub/aiml_research_what_does_it_really_take_d/",
+    "date": "2026-07-16"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ux8i9g/junior_machine_learning_engineer_interview_d/",
+    "date": "2026-07-16"
   }
 ]
