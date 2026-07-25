@@ -1,133 +1,5 @@
 [
   {
-    "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1tmb4qw/working_on_a_cgofree_cuda_binding_in_go_for_ml/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tmpfa9/how_to_hit_claude_limits_in_one_click/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tmshey/the_problem_of_brand_facing_the_platform/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tn3cys/i_was_messing_with_agentic_organizational/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tme23u/multiagent_loop_failures_might_be_orgdesign/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tn025s/ai_will_raise_human_consciousness_and_awaken/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tmsehf/we_built_a_managed_memory_api_for_ai_agents/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1tmc38r/i_built_10_gamified_interactive_presentation/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn19y6/sure_i_guess/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmzwcr/figure_ai_had_a_livestream_of_their_robots/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn2tia/now_what_is_wrong_here/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn595v/take_product_shots_of_an_object_that_doesnt_exist/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmodqo/you_have_to_pick_one/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmo1mo/has_anyone_else_noticed_chatgpt_subtly_siding/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn4f21/marble_warriors/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmd4uq/oow/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmkw5m/what_if_the_plot_of_gta5_was_produced_as_a_movie/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmw7x9/we_were_the_paperclips_all_along/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmt9ht/show_me_a_screenshot_of_what_would_be_the/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn2m0r/create_a_screenshot_of_internet_explorer_for/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn49fg/unhinged_costco_menu_board/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn5uyn/i_prefer_ai_to_people/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmegqg/scientists_invented_a_fake_disease_ai_told_people/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn151s/i_created_a_biblical_illustration_of_the_story_of/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn6kov/twitter_tech_influencers_every_time_a_new_llm/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmxw0f/most_people_pretending_to_understand_ai_are_just/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmh197/average_store_customer/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn5toe/has_ai_made_me_needy_or_is_it_revealing_how/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tn3l5i/cant_wait/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1tmabiw/oh_thank_you_chatgpt_this_position_does_help/",
-    "date": "2026-05-25"
-  },
-  {
     "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
     "date": "2026-05-28"
   },
@@ -2486,5 +2358,45 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/",
     "date": "2026-07-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+    "date": "2026-07-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+    "date": "2026-07-25"
   }
 ]
