@@ -1,9 +1,5 @@
 [
   {
-    "url": "https://www.sciencedirect.com/science/article/pii/S0167268126001459?dgcid=rss_sd_all",
-    "date": "2026-05-01"
-  },
-  {
     "url": "https://www.sciencedirect.com/science/article/pii/S0022053126000505?dgcid=rss_sd_all",
     "date": "2026-05-13"
   },
@@ -62,5 +58,9 @@
   {
     "url": "https://www.sciencedirect.com/science/article/pii/S0167487026000504?dgcid=rss_sd_all",
     "date": "2026-07-19"
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA21926?af=R",
+    "date": "2026-07-31"
   }
 ]
