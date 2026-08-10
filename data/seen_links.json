@@ -1,305 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://openai.com/index/lseg",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://openai.com/index/nextdoor",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/9/llm/#atom-everything",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1u1y94p/should_i_commit_and_publish_the_results_r/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p3k5/without_open_llm_competition_closed_source_llm/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1siyl/without_open_source_llms_us_ai_companies_could/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1wo8p/can_you_really_replace_paid_models_with_a_local/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1rno7/unslothnorthminicode10gguf_hugging_face/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u16b2c/rick_morty/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1eul0/since_when_the_rtx_6000_pro_is_priced_at_13250usd/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ci1r/releasing_cohere_north_mini_code/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1uk3a/anyone_gotten_gemma_4_12b_unified_audio_to/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p2me/releasing_apodex10_smol_models_08b_2b_4b/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1zjw0/moorethreadsmusacoder27b_huggingface/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1sj9d/whats_up_on_cpu_inference_these_days/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u16eyk/people_are_making_singleslot_half_height_pcie/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ykqb/how_long_do_you_think_it_will_take_for_the_stock/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pfen/gemma4_qats_vs_higherbit_regular_quantizations/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ygkw/qwen36mtp27b_on_tesla_v100_55_tps_llamacpp_any/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1w35p/what_is_the_best_7b12b_coding_model_in_2026/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1l4xh/hot_take_or_really_not_so_hot_take_we_are_using/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1y3i5/how_useful_is_qwopus_compared_to_qwen36_27b/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u12pru/crazy_statement_by_gemini_pro/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1llsc/control_for_agentic_payments_should_start_at/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1e9e4/claude_fable_mythos_released_by_anthropic/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1xa2j/uncensored_ai_llms/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u173fq/apples_new_ai_models_are_built_with_gemini_but/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1rgie/why_did_google_al_respond_to_me_fully_in_chinese/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1r9kq/building_ai_agents_is_easy_knowing_if_they/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1osyn/your_ai_agent_just_got_hijacked_you_have_no_idea/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1hyci/singletonattractors_and_current_state_of_ai/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1hi8v/dont_be_someones_dumb_pipe/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1q9bs/in_2_years_most_people_wont_need_separate_ai/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/artificial/comments/1u1efuz/openai_joins_anthropic_in_call_for_international/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1m9vt/i_asked_chatgpt_to_show_me_a_screenshot_from_a/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1s0b9/friends_with_ai/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1jf6p/response_to_the_nymphs_in_the_pool_we_have_the/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1kpmz/a_fork_eating_spaghetti_with_a_will_smith/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1rqio/yo_my_gpt_wild/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1woil/claude_fable_5_pricing_is_50million_tokens_are_we/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1e8na/nymphs_in_the_forest_pool/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1tceq/i_made_korean_horror_image_by_gpt/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1wtlu/anyone_else_converting_pdfs_to_markdown_before/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u19xmk/8_months_ago_we_gave_ai_models_money_to_invest/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1qei0/honestly_i_really_like_where_ai_is_going/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1eqvu/i_gave_chatgpt_a_247_radio_station_it_has_been/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u16l04/chatgpts_growth_is_on_another_level/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u18z7a/image_generation_with_just_emoji/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1ze3t/this_prompt_is_absolutely_nuts/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1bu3y/uhmmm/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1wmwo/the_support_structures_that_are_supposed_to_exist/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1mz45/saw_somebody_else_do_a_similar_prompt/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u15vtv/chad_gpt/",
-    "date": "2026-06-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1u1vyx1/i_asked_chatgpt_this_question/",
-    "date": "2026-06-10"
-  },
-  {
     "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
     "date": "2026-06-13"
   },
@@ -1430,5 +1130,41 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1vh42ed/the_current_state_of_language_models_and_human/",
     "date": "2026-08-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+    "date": "2026-08-10"
   }
 ]
