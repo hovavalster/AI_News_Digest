@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1u4mues/price_is_not_cost_how_we_are_using_the_wrong/",
-    "date": "2026-06-13"
-  },
-  {
     "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
     "date": "2026-06-16"
   },
@@ -1166,5 +1130,49 @@
   {
     "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
     "date": "2026-08-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+    "date": "2026-08-13"
   }
 ]
