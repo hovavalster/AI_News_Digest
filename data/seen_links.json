@@ -1,25 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
-    "date": "2026-06-22"
-  },
-  {
     "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "date": "2026-06-25"
   },
@@ -1146,5 +1126,53 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/",
     "date": "2026-08-19"
+  },
+  {
+    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/21/llm/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vulfei/does_telling_an_llm_to_be_concise_actually_save/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vujk2p/epistemic_intelligence_in_machine_learning/",
+    "date": "2026-08-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vukv7j/safety_critical_systems_scs_are_the_only_real/",
+    "date": "2026-08-22"
   }
 ]
