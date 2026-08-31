@@ -1,93 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ukgwk1/a_systemlevel_approach_to_prompt_injection/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ujv03i/are_all_llm_research_papers_nowadays_100_pages/",
-    "date": "2026-07-01"
-  },
-  {
     "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
     "date": "2026-07-04"
   },
@@ -1182,5 +1094,33 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
     "date": "2026-08-28"
+  },
+  {
+    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w39buv/good_machine_learning_posters_d/",
+    "date": "2026-08-31"
   }
 ]
