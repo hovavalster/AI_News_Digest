@@ -1,133 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1umqfd2/h64lm_a_249mparameter_mixtureofexperts/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1umqf58/tom_yehs_ai_by_hand_is_it_worth_it_d/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umokhj/uh_honey_how_do_you_feel_about_takeout/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umcr5m/glm52_on_5x_pro_6000s_and_a_5090_an_expensive/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umo8zu/longcat_2_model_weights_have_been_published/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umbw0v/palantir_is_a_free_org_on_hf_with_0_opensource/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgsu2/according_to_bernstein_sk_hynix_has_90_profit/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umpxhg/gemma4_e2b_is_really_good_what_other_small_models/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umk3ax/qwen_27b/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un430x/a_fully_local_selfhosted_repo_index_for_coding/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umtiw4/glm52_performance/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umrcbi/this_3_slot_3080_20gb_with_12v2x6_i_got_for_42245/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un28zb/looking_for_thoughts_on_card_purchase_v620_mi50/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ump3nw/whats_the_catch_with_swireasoning/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umka9t/any_idea_why_bartowski_claims_deepseekv4flash_is/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umdjxd/my_deepseek_v4_pro_at_home_got_faster_again/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umqgnl/particle_scattering_sampler_for_llamacpp/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umee2i/gemma_avatar_talk_to_gemma_431b_face_to_face/",
-    "date": "2026-07-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ums14f/claude_desktop_code_but_use_local_api/",
-    "date": "2026-07-04"
-  },
-  {
     "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
     "date": "2026-07-07"
   },
@@ -1154,5 +1026,73 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
     "date": "2026-09-01"
+  },
+  {
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6wtw7/how_many_repeated_llm_queries_are_enough_testing/",
+    "date": "2026-09-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6z6kz/how_does_one_approach_towards_machine_learningd/",
+    "date": "2026-09-04"
   }
 ]
