@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1uov7or/machine_learning_industry_job_requirements_used/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1upru5y/llms_know_when_they_are_wrong_i_made_a_fix/",
-    "date": "2026-07-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/",
-    "date": "2026-07-07"
-  },
-  {
     "url": "https://openai.com/index/deutsche-telekom",
     "date": "2026-07-10"
   },
@@ -1094,5 +1058,49 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1w6z6kz/how_does_one_approach_towards_machine_learningd/",
     "date": "2026-09-04"
+  },
+  {
+    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9myqc/kv_cache_as_an_agent_runtime_r/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9llr4/measuring_llm_performance_drift_observations_and/",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9a2i7/pinnstudio_a_free_opensource_nocode_gui_for/",
+    "date": "2026-09-07"
   }
 ]
