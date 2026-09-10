@@ -1,105 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/deutsche-telekom",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
-    "date": "2026-07-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-    "date": "2026-07-10"
-  },
-  {
     "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
     "date": "2026-07-13"
   },
@@ -1102,5 +1002,53 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1w9a2i7/pinnstudio_a_free_opensource_nocode_gui_for/",
     "date": "2026-09-07"
+  },
+  {
+    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wc7hmu/i_trained_a_348m_model_trained_from_scratch_on/",
+    "date": "2026-09-10"
   }
 ]
