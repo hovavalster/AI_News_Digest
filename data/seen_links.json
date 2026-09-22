@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/",
-    "date": "2026-07-22"
-  },
-  {
     "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
     "date": "2026-07-25"
   },
@@ -1042,5 +978,49 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wk9hwm/jmlr_submission_experience_d/",
     "date": "2026-09-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/21/jev/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/",
+    "date": "2026-09-22"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wme6lx/systems_for_machine_learningd/",
+    "date": "2026-09-22"
   }
 ]
