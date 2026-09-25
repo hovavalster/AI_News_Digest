@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
-    "date": "2026-07-25"
-  },
-  {
     "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
     "date": "2026-07-28"
   },
@@ -1022,5 +982,57 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wme6lx/systems_for_machine_learningd/",
     "date": "2026-09-22"
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wphteu/whats_up_with_aaai_reviewers_and_organizers_d/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wp8ung/publication_venue_recommendations_r/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wp5apl/residency_predoc_programs_or_lesserknown/",
+    "date": "2026-09-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wp4w9a/applying_multirate_dsp_principles_to_llms_a/",
+    "date": "2026-09-25"
   }
 ]
