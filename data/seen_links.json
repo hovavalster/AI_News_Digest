@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
-    "date": "2026-07-28"
-  },
-  {
     "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "date": "2026-07-31"
   },
@@ -1034,5 +986,65 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wp4w9a/applying_multirate_dsp_principles_to_llms_a/",
     "date": "2026-09-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wsbqni/qwen3vl_8b_on_a_laptop_vs_opus_55_sonnet_5_gpt56/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6g1p/are_there_any_good_research_papers_around_text/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ws2mhx/reduced_my_jev_judges_calibration_error_d/",
+    "date": "2026-09-28"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ws1a92/google_deepmind_optimization_roles_d/",
+    "date": "2026-09-28"
   }
 ]
