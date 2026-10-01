@@ -1,137 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://openai.com/index/unive",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
-    "date": "2026-07-31"
-  },
-  {
-    "url": "https://openai.com/index/ten-advances-in-mathematics",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vbvlft/learning_path_to_fully_understand_the_kimi_k3/",
-    "date": "2026-08-01"
-  },
-  {
     "url": "https://openai.com/index/apple-is-getting-this-wrong",
     "date": "2026-08-04"
   },
@@ -1046,5 +914,81 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1ws1a92/google_deepmind_optimization_roles_d/",
     "date": "2026-09-28"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wuctrt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+    "date": "2026-10-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wuac1n/openais_lean_4_navierstokes_proof_compiles_with/",
+    "date": "2026-10-01"
   }
 ]
