@@ -1,65 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/apple-is-getting-this-wrong",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vf4zjz/the_downsides_of_llmgenerated_peer_reviews_d/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vf623l/automated_plagiarism_with_llmremixers_d/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1veqv8i/i_created_an_autonomous_boxing_benchmark_d/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ven68z/arpl_runtime_isatopology_detection_for_llamacpp/",
-    "date": "2026-08-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1veat29/deep_dive_on_rl_and_opd_for_training_llms_d/",
-    "date": "2026-08-04"
-  },
-  {
     "url": "https://openai.com/index/hsp-gruppe",
     "date": "2026-08-07"
   },
@@ -990,5 +930,37 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wuac1n/openais_lean_4_navierstokes_proof_compiles_with/",
     "date": "2026-10-01"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wxar4x/working_with_an_ai_company_that_does_things_you/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wxex8n/a_minimal_interpretable_architecture_for_zeroshot/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
+    "date": "2026-10-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wx1knr/jev_not_frontier_but_still_worth_your_attention_r/",
+    "date": "2026-10-04"
   }
 ]
