@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/hsp-gruppe",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vhsb17/which_degree_is_best_d/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vhvgj9/improved_compression_of_bad_apple_into_a_neural/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vhapso/can_recurring_llm_traces_be_synthesized_into/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vh42ed/the_current_state_of_language_models_and_human/",
-    "date": "2026-08-07"
-  },
-  {
     "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
     "date": "2026-08-10"
   },
@@ -962,5 +910,81 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wx1knr/jev_not_frontier_but_still_worth_your_attention_r/",
     "date": "2026-10-04"
+  },
+  {
+    "url": "https://openai.com/index/atlassian-partnership",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "date": "2026-10-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/",
+    "date": "2026-10-07"
   }
 ]
