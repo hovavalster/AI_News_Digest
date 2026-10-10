@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-    "date": "2026-08-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
-    "date": "2026-08-10"
-  },
-  {
     "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
     "date": "2026-08-13"
   },
@@ -986,5 +950,57 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/",
     "date": "2026-10-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x1tt7m/integrum_reflection_based_mcp_server_from_any/",
+    "date": "2026-10-10"
   }
 ]
