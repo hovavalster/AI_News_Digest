@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-    "date": "2026-08-13"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-    "date": "2026-08-13"
-  },
-  {
     "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
     "date": "2026-08-16"
   },
@@ -1002,5 +958,165 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1x1tt7m/integrum_reflection_based_mcp_server_from_any/",
     "date": "2026-10-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4qcxw/machine_learning_tutorialworkshop_d/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x5080s/any_advice_for_what_industry_is_looking_for_in_ml/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4zear/is_human_evaluation_through_surveys_common_in_ml/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4zwp4/flama_8_years_building_a_python_framework_where/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4x6ls/i_built_a_pytorch_library_of_pretrained_models/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4uc90/where_do_llms_actually_earn_their_place_in_a/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4ye07/ai_peer_review_tool_for_cvpr_iclr_icml_and/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4snts/how_do_you_handle_coverage_guarantees_from_split/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x4h5bx/got_desk_rejected_at_tmlr_with_no_idea_why_d/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4az7m/update_i_asked_gpt_to_get_me_a_surprise_gift_this/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gl3p/just_trolling_gpt_with_dadjokes/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4hwrl/gpt_showed_me_his_internals_instead_of_answering/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qjmg/did_openai_reduce_the_5_hour_quota/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4j6bb/muse_wonder_is_getting_torn_apart_online/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4wskz/i_built_an_ai_skill_to_help_you_discover_what/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4z44o/have_plus_but_what_is_up_with_the_constant_insert/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4z1cz/any_way_to_get_chat_to_more_consistently_follow/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4bz5f/i_was_listening_to_a_youtuber_talk_about_how_he/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4ucq2/astra_is_an_obstinate_twat/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gpq5/your_ais_when_you_add_make_no_mistakes_to_the_end/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4uwu0/cant_update_site_anymore/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qf1d/chatgpt_for_studying_and_exams/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x5001f/dot_cloud_browser_unusable/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4zd4r/when_a_chat_finally_gets_it_right_ask_it_to_write/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qayv/im_the_clipboard_between_my_ai_tools_and_its/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4ycbl/chat_messed_up_on_my_usps_cvs_file/",
+    "date": "2026-10-13"
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/",
+    "date": "2026-10-13"
   }
 ]
