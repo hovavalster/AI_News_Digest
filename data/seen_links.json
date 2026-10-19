@@ -1,61 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://openai.com/index/partnering-with-codeai",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://openai.com/index/chatgpt-for-teens",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-    "date": "2026-08-19"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/",
-    "date": "2026-08-19"
-  },
-  {
     "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
     "date": "2026-08-22"
   },
@@ -1138,5 +1082,53 @@
   {
     "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
     "date": "2026-10-16"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x9k4si/i_moved_from_network_training_to_deployment/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x9e2fw/anyone_else_get_brain_lag_from_overlycondensed/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x9okma/steertts_23mparam_english_tts_you_steer_with/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x9i1pg/do_iclr_guidelines_allow_to_upload_papers_under/",
+    "date": "2026-10-19"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later/",
+    "date": "2026-10-19"
   }
 ]
