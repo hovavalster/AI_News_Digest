@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/21/llm/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vulfei/does_telling_an_llm_to_be_concise_actually_save/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vujk2p/epistemic_intelligence_in_machine_learning/",
-    "date": "2026-08-22"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vukv7j/safety_critical_systems_scs_are_the_only_real/",
-    "date": "2026-08-22"
-  },
-  {
     "url": "https://openai.com/index/gpt-5-6-in-kiro",
     "date": "2026-08-25"
   },
@@ -1130,5 +1082,65 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later/",
     "date": "2026-10-19"
+  },
+  {
+    "url": "https://openai.com/index/forward-deployed-engineering-means",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://openai.com/index/att-legal",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://openai.com/index/broad-access-through-consistent-standards",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+    "date": "2026-10-22"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+    "date": "2026-10-22"
   }
 ]
