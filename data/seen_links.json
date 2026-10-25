@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/gpt-5-6-in-kiro",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vx94er/bart_a_vintage_llm_r/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vxcc1h/r_using_ai_as_a_spatial_software_generator_to/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vxfmms/hyperparameters_fine_tuning_for_marl_comparative/",
-    "date": "2026-08-25"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/",
-    "date": "2026-08-25"
-  },
-  {
     "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
     "date": "2026-08-28"
   },
@@ -1142,5 +1098,25 @@
   {
     "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
     "date": "2026-10-22"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "date": "2026-10-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "date": "2026-10-25"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "date": "2026-10-25"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "date": "2026-10-25"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+    "date": "2026-10-25"
   }
 ]
