@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/",
-    "date": "2026-08-31"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w39buv/good_machine_learning_posters_d/",
-    "date": "2026-08-31"
-  },
-  {
     "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
     "date": "2026-09-01"
   },
@@ -1142,5 +1114,33 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1xh3e7o/exploring_nextconcept_modeling_ncm_transformer/",
     "date": "2026-10-28"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+    "date": "2026-10-31"
   }
 ]
