@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/",
-    "date": "2026-09-01"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
-    "date": "2026-09-01"
-  },
-  {
     "url": "https://openai.com/index/daybreak-for-frontline-defenders",
     "date": "2026-09-04"
   },
@@ -1142,5 +1110,29 @@
   {
     "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
     "date": "2026-10-31"
+  },
+  {
+    "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xkeq7d/i_built_a_scikitlearn_for_rsi_p/",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+    "date": "2026-11-01"
   }
 ]
