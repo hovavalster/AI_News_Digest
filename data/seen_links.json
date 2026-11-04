@@ -1,73 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6wtw7/how_many_repeated_llm_queries_are_enough_testing/",
-    "date": "2026-09-04"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6z6kz/how_does_one_approach_towards_machine_learningd/",
-    "date": "2026-09-04"
-  },
-  {
     "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
     "date": "2026-09-07"
   },
@@ -1134,5 +1066,73 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
     "date": "2026-11-01"
+  },
+  {
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xns0uq/iclr_grading_change_d/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xnbdx0/experiments_with_chinchilla_scaling_laws/",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xmzu1x/anybody_up_for_discussion_on_improvement_of/",
+    "date": "2026-11-04"
   }
 ]
