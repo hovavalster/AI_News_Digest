@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9myqc/kv_cache_as_an_agent_runtime_r/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9llr4/measuring_llm_performance_drift_observations_and/",
-    "date": "2026-09-07"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w9a2i7/pinnstudio_a_free_opensource_nocode_gui_for/",
-    "date": "2026-09-07"
-  },
-  {
     "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
     "date": "2026-09-10"
   },
@@ -1134,5 +1090,37 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1xmzu1x/anybody_up_for_discussion_on_improvement_of/",
     "date": "2026-11-04"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xpye7g/ant_ling_introduces_ling32flash_560b25b_native/",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xpsj1p/ml_conferences_what_do_you_think_about_reviewer/",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xpp7z5/looking_to_connect_with_people_working_on/",
+    "date": "2026-11-07"
   }
 ]
