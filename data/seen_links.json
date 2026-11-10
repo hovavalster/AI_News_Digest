@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
-    "date": "2026-09-10"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wc7hmu/i_trained_a_348m_model_trained_from_scratch_on/",
-    "date": "2026-09-10"
-  },
-  {
     "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
     "date": "2026-09-13"
   },
@@ -1122,5 +1074,109 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1xpp7z5/looking_to_connect_with_people_working_on/",
     "date": "2026-11-07"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://openai.com/index/ai-effect-on-freelance-work",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xsmmfm/introducing_usul_an_easier_way_to_express_your_nn/",
+    "date": "2026-11-10"
   }
 ]
