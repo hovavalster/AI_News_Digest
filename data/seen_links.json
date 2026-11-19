@@ -1,65 +1,5 @@
 [
   {
-    "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-    "date": "2026-09-19"
-  },
-  {
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wk9hwm/jmlr_submission_experience_d/",
-    "date": "2026-09-19"
-  },
-  {
     "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
     "date": "2026-09-22"
   },
@@ -1274,5 +1214,61 @@
   {
     "url": "https://www.reddit.com/r/MachineLearning/comments/1xxc63w/social_simulation_with_llms_from_proxies_to/",
     "date": "2026-11-16"
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+    "date": "2026-11-19"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+    "date": "2026-11-19"
   }
 ]
